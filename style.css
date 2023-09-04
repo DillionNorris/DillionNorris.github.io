@@ -3,76 +3,75 @@
 /* structure*/
 
 body {
-    margin: 0;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    background-color: #454f4d;
-  }
-  #content {
-    background: #0c5648;
-    width: 75%;
-    padding: 12px;
-    margin: auto;
-    border-radius: 5px;
-  }
-  #header {
-    background-color: #454f4d;
-    margin-top: 0%;
-    padding: 15px;
-    border-color: rgba(65, 65, 65, 0.548);
-    border-radius: 3px;
-    border: solid;
-  }
-  
-  /*Navigation */
-  a {
-    text-decoration: none;
-    color: black;
-    padding: 4px;
-    background-color: #B4CFCA;
-  }
-  a:hover {
-    background-color: #1ee8d6;
-  }
-  a.NW:hover {
-    background-color: red;
-  }
-  
-  /*Images*/
-  img {
-    border: 3px solid black;
-    border-radius: 4px;
-  }
-  
-  /*headings*/
-  h1 {
-    color: #40e3c5;
-  }
-  h2 {
-    color: #2ddaba;
-  }
-  p{
-    font-size: large;
-    background-color:#B4CFCA ;
-  }
-  
-  /* table */
-  table {
-    border-color: #454f4d;
-    border: solid;
-  }
-  th,
-  td {
-    padding: 4px;
-  }
-  th {
-    background-color: #86e8d6;
-  }
-  /*Lists*/
-  ul{
-    font-size:x-large;
-    line-height: 30px;
-  }
-  li{
-    padding: auto;
-    
-  }
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #454f4d;
+}
+#content {
+  background: #0c5648;
+  width: 75%;
+  padding: 12px;
+  margin: auto;
+  border-radius: 5px;
+}
+#header {
+  background-color: #454f4d;
+  margin-top: 0%;
+  padding: 15px;
+  border-color: rgba(65, 65, 65, 0.548);
+  border-radius: 3px;
+  border: solid;
+}
+
+/*Navigation */
+a {
+  text-decoration: none;
+  color: black;
+  padding: 4px;
+  background-color: #b4cfca;
+}
+a:hover {
+  background-color: #1ee8d6;
+}
+a.NW:hover {
+  background-color: red;
+}
+
+/*Images*/
+img {
+  border: 3px solid black;
+  border-radius: 4px;
+}
+
+/*headings*/
+h1 {
+  color: #40e3c5;
+}
+h2 {
+  color: #2ddaba;
+}
+p {
+  font-size: large;
+  background-color: #b4cfca;
+}
+
+/* table */
+table {
+  border-color: #454f4d;
+  border: solid;
+}
+th,
+td {
+  padding: 4px;
+}
+th {
+  background-color: #86e8d6;
+}
+/*Lists*/
+ul {
+  font-size: x-large;
+  line-height: 30px;
+}
+li {
+  padding: auto;
+}
