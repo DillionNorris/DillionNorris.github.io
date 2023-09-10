@@ -1,0 +1,340 @@
+body{
+    font-family: "Berlingske Sans", "Arial", sans-serif;
+}
+header{
+    margin: auto;
+    width: auto;
+    background-color: black;
+    padding: 5px;
+}
+a{
+    padding: auto;
+    margin: auto;
+    text-decoration: none;
+}
+/*
+main 
+navigation
+*/
+header ul {
+padding-left: 0px;
+}
+header li{
+    text-decoration: none;
+    margin: 0px;
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header p {
+    color: aliceblue;
+}
+.mid-nav{
+    display: flex;
+}
+.mid-nav{
+    display: flex; 
+     position: relative;
+     justify-content: right;
+     text-align: right;
+     
+ }
+ .mid-nav ul{
+     justify-content: center;
+     display: flex;
+ }
+ .mid-nav li{
+   padding: 5px;
+ }
+ #head-logo{
+    display: flex;
+    position: relative;
+    padding: 5px;
+ }
+ input{
+    display: flex;
+    position: left;
+
+ }
+ .middle-nav{
+    display: flex;
+justify-content: space-between;
+ }
+ .lower-nav{
+    display: flex;
+    justify-content: center;
+    background-color: #73000a;
+ }
+ .lower-nav ul{
+    display: flex;
+    padding: 5px;
+    padding-left: 0px;
+    
+ }
+ .lower-nav li{
+    list-style: none;
+    padding: 5px;
+ }
+ .box1 h1{
+background-color: #73000a;
+ }
+ .box1 h3{
+    margin-left:  15%;
+    margin-right: 15%;
+ }
+ .box1 p{
+    margin-left: 15%;
+    margin-right: 15%;
+ }
+ .box2{
+    display: flex;
+ }
+ .box2 .box2side{
+    color: aliceblue;
+    background-color: #73000a;
+    text-align: center;
+    padding: 3cm;
+    
+    color: aliceblue;
+
+ }
+.box3{
+    display: flex;
+}
+.box3 a{
+    text-size-adjust: 5px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #73000a;
+    border-style: solid;
+    border-color: aliceblue;
+}
+.box3 a:hover{
+    background-color:aliceblue ;
+    color:#73000a
+}
+.box3 .box3side{
+
+    background-color: black;
+    color: aliceblue;
+    padding: 2cm;
+}
+.box4{
+    display: flex;
+   
+}
+.box4 a{
+    text-size-adjust: 5px;
+  
+    color: aliceblue;
+    background-color: #73000a;
+    border-style: solid;
+    border-color: aliceblue;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+.box4 a:hover{
+    background-color:aliceblue ;
+    color:#73000a
+}
+.box4 .sideimg{
+    margin: 10px;
+}
+.box4 .box4side{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.box4 h1{
+    color: #73000a;
+
+}
+.reserch-spotlights{
+    text-align: center;
+    color: #73000a;
+}
+.box5{
+    display:flex;
+}
+.box5 .side1 .side2 .side3 .side4{
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+
+}
+.box5 h3 p{
+    margin: 5px;
+    padding: 5px;
+
+} 
+.box5 h3{
+    color: #73000a;
+}
+.VARS {
+    text-align: right;
+    color: #73000a;
+    padding: auto;
+    margin: auto;
+    
+}
+.VARS :hover{
+background-color: #73000a;
+color: aliceblue;
+}
+.box6{
+    display: flex;
+    background-color: #73000a;
+    color: aliceblue;
+}
+.box6side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.box6side a{
+    background-color: black;
+    color: aliceblue;
+    border-style: solid;
+    border-color: aliceblue;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+.box6side a :hover{
+    background-color: aliceblue;
+    color: #73000a;
+}
+.box7{
+    display: flex;
+}
+.box7side{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    flex-direction: column;
+
+}
+.box7 h2{
+    color: #73000a;
+}
+.box7 a{
+    background-color: #73000a;
+    color: aliceblue;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+.box7 a:hover{
+    background-color: aliceblue;
+    color: #73000a;
+    border-style: solid;
+    border-color: #73000a;
+}
+.box8{
+    display: flex;
+    background-color: rgb(6, 66, 105);
+    color: aliceblue;
+}
+.box8side{
+    display: flex;
+    flex-direction: column;
+}
+.box8 h2 p{
+    color: aliceblue;
+}
+.box8 a{
+    color: aliceblue;
+    background-color: #73000a;
+    border-style: solid;
+    border-color: aliceblue;
+
+}
+.box8 a:hover{
+    color: #73000a;
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: #73000a;
+}
+.box8side{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box10side{
+    background-color: #73000a;
+    margin: 500px;
+    color: aliceblue;
+    padding: 5px ;
+}
+.box10side a{
+    color:aliceblue;
+    background-color: black;
+    border-style: solid;
+    border-color: aliceblue;
+}
+.box10side a :hover{
+background-color: aliceblue;
+color:#73000a;
+}
+.box11{
+    display: flex;
+}
+.box11side{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly ;
+    padding: 5px;
+    margin: 5px;
+}
+.box11 h2{
+    color: #73000a;
+}
+.box11 a {
+background-color: #73000a;
+color: aliceblue;
+}
+.box11 a:hover{
+    border-style: solid;
+    border-color:#73000a;
+    background-color: aliceblue;
+    color: #73000a;
+}
+.sub-logo{
+    display: flex;
+    background-color: #73000a;
+}
+  footer{
+   background-color: #73000a;
+   color: aliceblue;
+   text-decoration: none;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+  }
+.footcol1 .footcol2 .footcol3{
+    text-decoration: none;
+display: flex;
+flex-direction: column;
+align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.sub-footer ul{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+.sub-footer{
+    background-color: black;
+
+}
+.sub-footer li{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    color: aliceblue;
+    background-color: black;
+}
+
