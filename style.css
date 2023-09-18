@@ -31,12 +31,7 @@ p {
   text-align: center;
   padding: 2px;
 }
-.assignment1,
-.assignment2,
-.assignment3 {
-  background: #0c0e0d;
-  margin: 5px;
-}
+
 .assignments a {
   margin: 5px;
   padding: 0px;
