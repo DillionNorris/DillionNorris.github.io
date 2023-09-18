@@ -1,0 +1,72 @@
+
+header{
+    background-color: aquamarine;
+    text-align: center;
+    border: solid;
+}
+footer{
+    text-align: center;
+    background-color: aquamarine;
+}
+section{
+    border: solid;
+    background-color: bisque;
+}
+#content{
+    margin: 5px;
+    padding: 5px;
+}
+#hideandseek{
+    margin: 5px;
+    padding: 5px;
+}
+#animate{
+    margin: 5px;
+    padding: 5px;
+}
+#input{
+    margin: 5px;
+    padding: 5px;
+
+}
+
+
+
+#square{
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+   
+}
+
+.move-square{
+     position: relative;
+     animation-name: anim-square;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes anim-square{
+    0%{
+        background-color: bisque; 
+        margin-left: 0%;
+    }
+    50%{
+        background-color: rgb(255, 0, 191);
+        margin-left: 50%;
+    }
+    100%{
+         background-color: black;
+         margin-left: 100%;
+    }
+}
+@media (min-width: 900px) {
+#content{
+    display: flex;
+}
+
+    
+}
