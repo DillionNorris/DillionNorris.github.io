@@ -41,7 +41,7 @@ section{
    
 }
 
-.move-square{
+ .move-square{
      position: relative;
      animation-name: anim-square;
     animation-duration: 1s;
