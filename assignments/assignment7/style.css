@@ -1,0 +1,43 @@
+
+
+:root{
+    --man: 
+}
+
+body{
+    background-color: rgb(41, 41, 41);
+}
+
+
+#man-contain , #fund-contain{
+
+    background-color: rgb(0, 162, 255);
+
+}
+h2,h1,h3{
+    color: rgb(41, 41, 41);
+}
+
+#man{
+    color: black;
+    position: relative;
+
+}
+
+#meter{
+    margin: 10px;
+    background-color: aliceblue;
+    width: 50px;
+    height: 200px;
+    background: rgb(255,255,255);
+}
+
+
+
+
+@media (min-width: 500px) {
+    body{
+        display: flex;
+        flex-direction: row;
+    }
+}
