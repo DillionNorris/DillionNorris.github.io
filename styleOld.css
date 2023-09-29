@@ -1,3 +1,7 @@
+/*Dillion Norris 242*/
+
+/* structure*/
+
 body {
   margin: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -9,6 +13,7 @@ body {
   padding: 12px;
   margin: auto;
   border-radius: 5px;
+  
 }
 #header {
   background-color: #1f2423;
@@ -17,6 +22,36 @@ body {
   border-color: rgba(65, 65, 65, 0.548);
   border-radius: 3px;
   border: solid;
+}
+#content {
+  margin: 2px;
+  padding: 5px;
+}
+#content h2,
+p {
+  text-align: center;
+  padding: 2px;
+}
+
+#content a {
+  margin: 5px;
+  padding: 0px;
+  background: #0c5648;
+}
+
+
+/*Navigation */
+a {
+  text-decoration: none;
+  color: black;
+  padding: 4px;
+  background-color: #b4cfca;
+}
+a:hover {
+  background-color: #1ee8d6;
+}
+a.NW:hover {
+  background-color: red;
 }
 
 /*Images*/
@@ -30,9 +65,13 @@ img {
   margin-right: auto;
   width: 50%;
 }
-#content #projectContent img :hover {
+#content img :hover {
   background: #1ee8d6;
 }
+.projectConetent img :hover {
+  background: #1ee8d6;
+}
+
 /*headings*/
 h1 {
   color: #40e3c5;
@@ -44,11 +83,31 @@ h2 {
 p {
   font-size: large;
   background-color: #b4cfca;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
-/*FOOTER*/
+/* table */
+table {
+  border-color: #454f4d;
+  border: solid;
+}
+th,
+td {
+  padding: 4px;
+}
+th {
+  background-color: #86e8d6;
+}
+/*Lists*/
+ul {
+  font-size: x-large;
+  line-height: 30px;
+}
+li {
+  padding: auto;
+}
+
+/*footer */
+
 footer {
   background-color: #1f2423;
   margin-bottom: 0%;
@@ -62,28 +121,15 @@ footer p {
   color: aliceblue;
 }
 
-/*links*/
-a {
-  text-decoration: none;
-  color: black;
-  padding: 4px;
-  background-color: #465351;
-}
-a:hover {
-  background-color: #1ee8d6;
-}
-a.NW:hover {
-  background-color: red;
-}
-
-@media (min-width: 950px) {
+@media (min-width: 870px) {
   .assignments {
     display: flex;
   }
-  .projectContent {
-    display: flex;
-  }
+div.projectConetent{
+  display: flex;
+}
   img :hover {
     background: #1ee8d6;
   }
+
 }
