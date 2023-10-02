@@ -3,22 +3,25 @@
 
 const runningMan =()=>{
     man = document.getElementById("man");
-    for(let i = 25;i<50 ;i++){
-        man.style.margin = i;
-        
-    }
-
-
+    for(let i = 5;i<50 ;i++){
+       setTimeout(setPos(i),5000);
+       console.log(i);
+   }
 }
 
- let funds = 0;
-const fund =()=>{
-    numFund = document.getElementById("goal");
-    funds = numFunds + funds;
-    meter = document.getElementById("meter");
-    percent = (funds/10000)*100;
+const setPos=(num)=>{
+    man.style.setProperty("--x",num+"%")
+}
 
-    meter.style.SVGLinearGradientElement
+
+    var funds = 0;
+const fund =()=>{
+    const numFund = document.getElementById("goal").value;
+    funds = +numFund + +funds;
+    let meter = document.getElementById("meter");
+    const percent = (funds/10000)*100;
+console.log(percent)
+    meter.style.background = 'linear-gradient(0deg,rgb(255,0,0) '+percent+'%, rgb(255,255,255) 0%)';
 
 
 
