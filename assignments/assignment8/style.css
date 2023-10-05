@@ -1,0 +1,78 @@
+
+#quote-contain{
+    background-color: blue;
+    padding: 5px;
+    margin: 5px;
+    width: 25%;
+}
+
+
+
+
+
+/*rainbow */
+.rainbow-contain{
+    background-color: blue;
+    padding: 5px;
+    margin: 5px;
+
+}
+#rainbow-button{
+    width: 25%;
+}
+.rainbow-contain h2{
+    text-align: center;
+}
+#pot{
+    display: block;
+    position: relative;
+}
+
+
+#red,#orange,#yellow,#green,#blue,#purple{
+    height: 10px;
+    width: 300px;
+}
+
+#red{
+    color: red;
+    visibility: hidden;
+}
+#orange{
+    color: orange;
+    visibility: hidden;
+}
+#yellow{
+    color: yellow;
+    visibility: hidden;
+}
+#greem{
+    color: green;
+    visibility: hidden;
+}
+#blue{
+    color: blue;
+    visibility: hidden;
+}
+#purple{
+    color: purple;
+    visibility: hidden;
+}
+
+
+
+
+
+@media (max-width:500px) {
+    
+    body{
+        display: flex;
+        justify-content: space-between;
+    }
+    .rainbow-contain{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+}

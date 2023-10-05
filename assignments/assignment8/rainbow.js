@@ -3,7 +3,7 @@
 
 const displayRainbow =()=>{
 
-    const num = 2000    // number of milliseconds 
+    const num = 1   // number of milliseconds 
     //disp red
     setTimeout(red, num);
     //display orange
