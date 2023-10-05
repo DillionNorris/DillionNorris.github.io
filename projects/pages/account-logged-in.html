@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <img src="logo" alt="logo" />
+      <button id="to-roster">Roster</button>
+      <button id="to-recruting">Recruiting</button>
+      <button id="to-scedule">Scedule</button>
+      <button id="to-account">Account</button>
+    </header>
+
+    <div class="update">
+      <div class="image">
+        <img src="pfp" alt=" profile pic" />
+      </div>
+      <div id="side">
+        <!-- change label to current user information -->
+
+        <!---  username -->
+        <label for="new-user-input"></label>
+        <input type="text" id="new-user-input" />
+        <!--    phone number-->
+        <label for="new-phone-input"></label>
+        <input type="text" name="New Username" id="new-phone-input" />
+        <!-- pfp-->
+        <label for="new-pfp-input"></label>
+        <input type="file" id="new-pfp-input" />
+        <!-- email-->
+        <label for="new-email-input"></label>
+        <input type="text" name="New email" id="new-email-input" />
+
+        <!-- 
+            switch html/css gotten from :
+            https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_switch
+        -->
+        <p>Text Updates?</p>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+
+        <p>Email Updates ?</p>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+
+        <button id="update-user-info">Update</button>
+      </div>
+    </div>
+
+
+    <div id="password">
+
+        <h2>Change Password</h2>
+
+        <label for="old-pass"></label>
+        <input type="text" id="new-old-pass" />
+
+        <label for="new-pass"></label>
+        <input type="text" id="new-pass" />
+
+        <label for="confirm-pass"></label>
+        <input type="text" id="confirm-pass" />
+
+        <button id="update-pass">Update</button>
+
+    </div>
+  </body>
+</html>
