@@ -1,4 +1,13 @@
 
+
+body{
+  display: flex;
+}
+
+
+
+
+
 #quote-contain{
     background-color: blue;
     padding: 5px;
@@ -35,6 +44,7 @@
 }
 
 #red{
+    background-color: red;
     color: red;
     visibility: hidden;
 }
@@ -68,6 +78,7 @@
     body{
         display: flex;
         justify-content: space-between;
+        flex-direction: column;
     }
     .rainbow-contain{
         display: flex;

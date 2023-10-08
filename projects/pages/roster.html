@@ -1,32 +1,94 @@
 <!DOCTYPE html>
 <html lang="eng">
   <head>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="../style.css" />
   </head>
 
   <body>
     <header>
-      <img src="logo" alt="logo" />
-      <button id="to-roster">Roster</button>
-      <button id="to-recruting">Recruiting</button>
-      <button id="to-scedule">Scedule</button>
-      <button id="to-account">Account</button>
+      <div id="burger">
+        <div id="line1"></div>
+        <div id="line2"></div>
+        <div id="line3"></div>
+      </div>
+      <img
+        id="to-home"
+        onclick="window.location.href='../home.html'"
+        src="../images/logo.png"
+        alt="logo"
+      />
+      <button id="to-roster" onclick="window.location.href='roster.html'">
+        Roster
+      </button>
+      <button
+        id="to-recruting"
+        onclick="window.location.href='recruiting.html'"
+      >
+        Recruiting
+      </button>
+      <button id="to-scedule" onclick="window.location.href='scedule.html'">
+        Scedule
+      </button>
+      <button
+        id="to-account"
+        onclick="window.location.href='account-login.html'"
+      >
+        Account
+      </button>
     </header>
-
-    <h2>Offence:</h2>
-    <div id="player">
-        <img src="player-pic" alt="">
-        <p id="first-last-name"></p>
-        <p id="hs-grad-year"></p>
-        <p id="position"></p>
-        <p id="number"></p>
-        <p id="injury-status"></p>
+    <div id="content">
+      <h2>Offence:</h2>
+      <div id="offence">
+        <div id="player">
+          <p><img src="https://placehold.it/100x100" alt="player photo" /></p>
+          <p id="first-last-name">first-last-name</p>
+          <p id="hs-grad-year">hs-grad-year</p>
+          <p id="position">position</p>
+          <p id="number">number</p>
+          <p id="injury-status">injury-status</p>
+        </div>
+        <div id="player">
+          <p><img src="https://placehold.it/100x100" alt="player photo" /></p>
+          <p id="first-last-name">first-last-name</p>
+          <p id="hs-grad-year">hs-grad-year</p>
+          <p id="position">position</p>
+          <p id="number">number</p>
+          <p id="injury-status">injury-status</p>
+        </div>
+      </div>
+      <h2>Defence:</h2>
+      <div id="defence">
+        <div id="player">
+          <p><img src="https://placehold.it/100x100" alt="player photo" /></p>
+          <p id="first-last-name">first-last-name</p>
+          <p id="hs-grad-year">hs-grad-year</p>
+          <p id="position">position</p>
+          <p id="number">number</p>
+          <p id="injury-status">injury-status</p>
+        </div>
+      </div>
+      <h2>Special Teams:</h2>
+      <div id="special-teams">
+        <div id="player">
+          <p><img src="https://placehold.it/100x100" alt="player photo" /></p>
+          <p id="first-last-name">first-last-name</p>
+          <p id="hs-grad-year">hs-grad-year</p>
+          <p id="position">position</p>
+          <p id="number">number</p>
+          <p id="injury-status">injury-status</p>
+        </div>
+      </div>
+      <h2>Coaching:</h2>
+      <div id="coaching">
+        <div id="player">
+          <p><img src="https://placehold.it/100x100" alt="player photo" /></p>
+          <p id="first-last-name">first-last-name</p>
+          <p id="hs-grad-year">hs-grad-year</p>
+          <p id="position">position</p>
+          <p id="number">number</p>
+          <p id="injury-status">injury-status</p>
+        </div>
+      </div>
     </div>
-    <h2>Defence:</h2>
-    <h2>Special Teams:</h2>
-    <h2>Coaching:</h2>
-
-
   </body>
 </html>
