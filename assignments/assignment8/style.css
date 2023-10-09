@@ -1,18 +1,10 @@
 
-
-body{
-  display: flex;
-}
-
-
-
-
-
 #quote-contain{
     background-color: blue;
     padding: 5px;
     margin: 5px;
-    width: 25%;
+    width:300px;
+    
 }
 
 
@@ -33,8 +25,16 @@ body{
     text-align: center;
 }
 #pot{
-    display: block;
-    position: relative;
+    
+    position:absolute;
+    top: 160px;
+    left: 65%;
+    visibility: hidden;
+
+}
+.rainbow{
+    border-style: solid;
+
 }
 
 
@@ -45,27 +45,26 @@ body{
 
 #red{
     background-color: red;
-    color: red;
     visibility: hidden;
 }
 #orange{
-    color: orange;
+    background-color: orange;
     visibility: hidden;
 }
 #yellow{
-    color: yellow;
+    background-color: yellow;
     visibility: hidden;
 }
-#greem{
-    color: green;
+#green{
+    background-color: green;
     visibility: hidden;
 }
 #blue{
-    color: blue;
+    background-color: blue;
     visibility: hidden;
 }
 #purple{
-    color: purple;
+    background-color: purple;
     visibility: hidden;
 }
 
@@ -73,17 +72,20 @@ body{
 
 
 
-@media (max-width:500px) {
+@media (min-width:500px) {
     
     body{
         display: flex;
-        justify-content: space-between;
-        flex-direction: column;
+        justify-content: space-evenly;
+        flex-direction: row
     }
     .rainbow-contain{
         display: flex;
         justify-content: space-between;
         flex-direction: column;
+    }
+    #pot{
+        top: 110px;
     }
 
 }
