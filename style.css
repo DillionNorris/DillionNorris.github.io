@@ -1,3 +1,4 @@
+/* main */
 body {
   margin: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -9,6 +10,7 @@ body {
   padding: 12px;
   margin: auto;
   border-radius: 5px;
+  height: 2460px;
 }
 #header {
   background-color: #1f2423;
@@ -17,6 +19,11 @@ body {
   border-color: rgba(65, 65, 65, 0.548);
   border-radius: 3px;
   border: solid;
+}
+p{
+  text-align: center;
+  border-style: solid;
+  border-radius:0vmin;
 }
 
 /*Images*/
@@ -46,6 +53,7 @@ p {
   background-color: #b4cfca;
   margin-left: 10%;
   margin-right: 10%;
+ 
 }
 
 /*FOOTER*/
@@ -68,7 +76,11 @@ a {
   color: black;
   padding: 4px;
   background-color: #465351;
+  
+  margin: 5px;
+    border-style: solid;
 }
+
 a:hover {
   background-color: #1ee8d6;
 }
@@ -76,14 +88,36 @@ a.NW:hover {
   background-color: red;
 }
 
-@media (min-width: 950px) {
+/* assignments */
+
+.assignment1,.assignment2,.assignment3,.assignment4,.assignment5,.assignment6,.assignment7,.assignment8{
+  width: 300px;
+  height: 300px;
+}
+
+
+/* project*/
+
+.project1{
+  width: 300px;
+  height: 300px;
+}
+
+/*media*/
+@media (min-width: 1px) {
   .assignments {
     display: flex;
+    flex-wrap: wrap;
   }
   .projectContent {
     display: flex;
   }
-  img :hover {
-    background: #1ee8d6;
+  .assignment1,.assignment2,.assignment3,.assignment4,.assignment5,.assignment6,.assignment7,.assignment8,.project1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
+ 
+
+ 
 }
