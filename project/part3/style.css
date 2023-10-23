@@ -130,13 +130,7 @@ button:hover{
 #switches{
 margin: 5px;
 }
-.recent-news{
-  background-color: white;
 
-}
-.recent-artical{
-  background-color: white;
-}
 /* home */
 #content-home{
   background-color: darkred;
@@ -149,13 +143,21 @@ margin: 5px;
   padding: 10px;
   
 }
+.ytvid{
+
+  align-items: center;
+}
+.recent-news, .recent-artical{
+border-style: solid;
+background-color: whitesmoke;
+
+}
 
 /*  logged in account */
 
 .update, #password{
   max-width: 50%;
 }
-
 
 
 
@@ -232,6 +234,12 @@ margin: 5px;
     header{
         display: flex;
     }
+    #content-home{
+      display: flex;
+      flex-direction: column;
+      align-items: center
+    }
+    
     #player{
       display: flex;
       flex-direction: column;
