@@ -2,7 +2,7 @@
 <html lang="eng">
   <head>
     <link rel="stylesheet" href="../style.css" />
-    
+    <script src="../js/login.js"></script>
   </head>
 
   <body>
@@ -19,18 +19,21 @@
       <button id="to-account" onclick="window.location.href='account-login.html'">Account</button>
     </header>
     <div id="content">
+    <div class="login">
+    <img  id="logo" src="../images/logo.png" alt="page logo" />
 
-    <h2>Next Up:</h2>
-    <div class="next-up-contain">
-        <img src="https://placehold.it/200x200" alt="next game location">
-        <div id="matchup-info">
-        <h2 id="matchup"> Gamecocks vs Florida Gators</h2>
-        <p id="stadium"> @ Williams-Bryce statium</p>
-        <p id="kickoff-time"> Kickoff: 7:30pm</p>
-        </div>
+    <div id="user-input">
+    <label for="user-input">Username</label>
+    <input type="text" id="user-input" />
+
+    <label for="pass-input">Password</label>
+    <input type="text" id="pass-input" />
+
+    <button id="login" onclick="window.location.href='account-logged-in.html'">Login</button>
+
+    <p id="stat"> invalid information</p>
     </div>
-
-    <p id="scedule"><img src="../images/scedule.png" alt="Gamecocks Scedule"></p>
+      </div>
     </div>
   </body>
 </html>

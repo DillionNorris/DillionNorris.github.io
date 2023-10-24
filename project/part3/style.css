@@ -49,6 +49,18 @@ button:hover{
   margin: -5px;
   
 }
+.player{
+  margin:5px;
+  background-color: white;
+  width: 200px;
+  padding: 5px;
+}
+.player p{
+  text-align: center;
+  padding:5px;
+  margin: -5px;
+  
+}
 /* login page */
 .login{
   padding: 10px;
@@ -224,8 +236,9 @@ margin: 5px;
       display: flex;
       flex-direction: column;
     }
-    #offence,#defence,#special-teams,#coaching{
+    #playerList{
       display: flex;
+      flex-wrap: wrap;
 
     }
     .login{
