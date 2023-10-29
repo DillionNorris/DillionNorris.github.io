@@ -73,31 +73,6 @@ button:hover{
   margin-left: 38%;
 }
 
-/* contact page */
-
-.contact{
-  padding: 10px;
-  margin: 5%;
-  margin-left: 10%;
-}
-.contact #logo{
-  max-height: 25%;
-  max-width: 25%;
-  margin-left: 38%;
-}
-form{
-  margin: 10px;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px;
-
-}
-.contact button{
-  margin-left: 20%;
-  margin-right: 20%;
-}
 
 
 /* recruitments */
@@ -155,7 +130,13 @@ form{
 #switches{
 margin: 5px;
 }
+.recent-news{
+  background-color: white;
 
+}
+.recent-artical{
+  background-color: white;
+}
 /* home */
 #content-home{
   background-color: darkred;
@@ -168,21 +149,13 @@ margin: 5px;
   padding: 10px;
   
 }
-.ytvid{
-
-  align-items: center;
-}
-.recent-news, .recent-artical{
-border-style: solid;
-background-color: whitesmoke;
-
-}
 
 /*  logged in account */
 
 .update, #password{
   max-width: 50%;
 }
+
 
 
 
@@ -259,12 +232,6 @@ background-color: whitesmoke;
     header{
         display: flex;
     }
-    #content-home{
-      display: flex;
-      flex-direction: column;
-      align-items: center
-    }
-    
     #player{
       display: flex;
       flex-direction: column;
@@ -275,14 +242,6 @@ background-color: whitesmoke;
 
     }
     .login{
-      display: flex;
-      flex-direction: column;
-    }
-    form{
-      display: flex;
-      flex-direction: column;
-    }
-    .contact{
       display: flex;
       flex-direction: column;
     }
