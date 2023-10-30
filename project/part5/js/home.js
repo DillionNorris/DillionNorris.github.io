@@ -23,32 +23,24 @@ const getHome = async ()=>{
   }
   
     const getArticleItem = (article)=> {
-      const playerSection = document.createElement("section");
-      playerSection.classList.add("player");
+      const articleSection = document.createElement("section");
+      articleSection.classList.add("recent-artical");
   
-      const pic = document.createElement("img");
-      pic.src = player.img;
-      playerSection.appendChild(pic);
+      const title = document.createElement("h2");
+        title.innerHTML = article.title;
+        articleSection.appendChild(title);
+
+        const text = document.createElement("p");
+        text.innerHTML = article.text;
+        articleSection.appendChild(text);
+
+        const button = document.createElement("button");
+        button.onclick="window.location.href="+article.link+";";
+        articleSection.appendChild(button);
   
-      const pname = document.createElement("p");
-      pname.innerText = player.name;
-      playerSection.appendChild(pname);
-  
-      const year = document.createElement("p");
-      year.innerText = `class of ${player.year}`;
-      playerSection.appendChild(year);
-  
-      const position = document.createElement("p");
-      position.innerText = player.position;
-      playerSection.appendChild(position);
-  
-      const number = document.createElement("p");
-      number.innerText = '#' + player.number;
-      playerSection.appendChild(number);
-  
-      return playerSection;
-    }
+          return articleSection;
+      }
   
   
-  window.onload = () => showPlayer();
+  window.onload = () => showHome();
   
