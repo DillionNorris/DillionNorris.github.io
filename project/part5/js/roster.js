@@ -1,9 +1,9 @@
 
 const getPlayers = async ()=>{
-  const url = await fetch("..json/roster.json");
+  const url = "../json/roster.json";
   try {
-   const response = await url;
-    return response
+   const response = await fetch(url);
+    return await response.json();
 }catch (error) {
     console.log(error);
 }
@@ -15,10 +15,11 @@ const showPlayer = async ()=>{
   let players = getPlayers();
   let playerSection = document.getElementById("playerList");
 
-  console.log(players);
- // players.forEach((player)=>{
+  //
+ players.forEach((player)=>{
+  console.log(player);
     //playerSection.append(getPlayerItem(player));
-  //});
+  });
 
 }
 
