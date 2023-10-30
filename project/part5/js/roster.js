@@ -12,7 +12,7 @@ const getPlayers = async ()=>{
 
 const showPlayer = async ()=>{
 
-  let players = getPlayers();
+  let players = await getPlayers();
   let playerSection = document.getElementById("playerList");
 
   //
