@@ -11,7 +11,7 @@ const getHome = async ()=>{
   
   const showHome = async ()=>{
   
-    let articles = await getArticle();
+    let articles = await getHome();
     let articleSection = document.getElementById("articleList");
   
     //
