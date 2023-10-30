@@ -2,6 +2,7 @@
 <html lang="eng">
   <head>
     <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../styles/login.css">
     <script src="../js/login.js"></script>
   </head>
 
@@ -24,11 +25,9 @@
     <img  id="logo" src="../images/logo.png" alt="page logo" />
 
     <div id="user-input">
-    <label for="user-input">Username</label>
-    <input type="text" id="user-input" />
-
-    <label for="pass-input">Password</label>
-    <input type="text" id="pass-input" />
+    
+    <input type="text" id="user-input" placeholder="Username" required />
+    <input type="text" id="pass-input" placeholder="Password" required />
 
     <button id="login" onclick="window.location.href='account-logged-in.html'">Login</button>
 

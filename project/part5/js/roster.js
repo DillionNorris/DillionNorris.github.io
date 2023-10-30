@@ -1,12 +1,28 @@
-class player {
-  constructor(name, year, position, number, pic) {
-    this.name = name;
-    this.year = year;
-    this.position = position;
-    this.number = number;
-    this.pic = pic;
-  }
-  get item() {
+
+const getPlayers = async ()=>{
+  const url = await fetch("..json/roster.json");
+  try {
+   const response = await url;
+    return response
+}catch (error) {
+    console.log(error);
+}
+
+}
+
+const showPlayer = async ()=>{
+
+  let players = getPlayers();
+  let playerSection = document.getElementById("playerList");
+
+  console.log(players);
+ // players.forEach((player)=>{
+    //playerSection.append(getPlayerItem(player));
+  //});
+
+}
+
+  const getPlayerItem = (player)=> {
     const playerSection = document.createElement("section");
     playerSection.classList.add("player");
 
@@ -32,26 +48,6 @@ class player {
 
     return playerSection;
   }
-}
-
-window.onload = () => {
-
-    let players = [];
-    let playerList = document.getElementById("playerList");
 
 
-                //name, year, position, number, pic
-    players.push(new player("Juju McDowell","Junior", "RB", "0","../players/jujum.jpg"));
-    players.push(new player("Debo Williams","RS Junior","LB","0"," ../players/debow.jpg"));
-    players.push(new player("Trey Knox","Graduate","TE","1","../players/treyk.jpg"));
-    players.push(new player("DQ Smith","Sophmore","DB","1","../players/dqs.jpg"));
-    players.push(new player("O'Donnell Fortune","RS Junior","DB","3","../players/odonf.jpg"));
-    players.push(new player("Antwane Wells Jr.","Senior","WR","3","../players/antwanew.jpg"));
-    players.push(new player("Dawkins Terrell","RS Senior","DE","4","../players/terrelld.jpg"));
-    players.push(new player("Colten Gauthier","RS Sophmore","QB","4","../players/colteng.jpg"));
-    
-    for (let i in players) {
-        playerList.append(players[i].item);
-      }
-
-}
+window.onload = () => showPlayer();
