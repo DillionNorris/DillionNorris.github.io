@@ -12,7 +12,7 @@ const getHome = async ()=>{
   const showHome = async ()=>{
   
     let articles = await getArticle();
-    let articleSection = document.getElementById("articleSection");
+    let articleSection = document.getElementById("articleList");
   
     //
    articles.forEach((article)=>{
