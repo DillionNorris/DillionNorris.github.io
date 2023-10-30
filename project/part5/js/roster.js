@@ -17,8 +17,8 @@ const showPlayer = async ()=>{
 
   //
  players.forEach((player)=>{
-  console.log(player);
-    //playerSection.append(getPlayerItem(player));
+  
+  playerSection.append(getPlayerItem(player));
   });
 
 }
