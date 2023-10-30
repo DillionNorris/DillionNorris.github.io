@@ -1,6 +1,6 @@
 
 const getPlayers = async ()=>{
-  const url = "json/roster.json";
+  const url = "roster.json";
   try {
    const response = await fetch(url);
     return await response.json();
