@@ -16,7 +16,7 @@ const getHome = async ()=>{
   
     //
    articles.forEach((article)=>{
-    
+    console.log("asdf")
     articleSection.append(getArticleItem(article));
     });
   
