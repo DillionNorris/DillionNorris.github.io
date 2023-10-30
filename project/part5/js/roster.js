@@ -28,23 +28,23 @@ const showPlayer = async ()=>{
     playerSection.classList.add("player");
 
     const pic = document.createElement("img");
-    pic.src = this.pic;
+    pic.src = player.img;
     playerSection.appendChild(pic);
 
     const pname = document.createElement("p");
-    pname.innerText = this.name;
+    pname.innerText = player.name;
     playerSection.appendChild(pname);
 
     const year = document.createElement("p");
-    year.innerText = `class of ${this.year}`;
+    year.innerText = `class of ${player.year}`;
     playerSection.appendChild(year);
 
     const position = document.createElement("p");
-    position.innerText = this.position;
+    position.innerText = player.position;
     playerSection.appendChild(position);
 
     const number = document.createElement("p");
-    number.innerText = '#' + this.number;
+    number.innerText = '#' + player.number;
     playerSection.appendChild(number);
 
     return playerSection;
