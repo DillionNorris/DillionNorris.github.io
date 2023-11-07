@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../styles/login.css">
+    
+  </head>
+
+  <body>
+    <header>
+      <div id="burger">
+        <div id="line1"></div>
+        <div id="line2"></div>
+        <div id="line3"></div>
+      </div>
+      <img id="to-home"  onclick="window.location.href='../home.html'" src="../images/logo.png" alt="logo" />
+      <button id="to-roster" onclick="window.location.href='roster.html'">Roster</button>
+      <button id="to-recruting" onclick="window.location.href='recruiting.html'">Recruiting</button>
+      <button id="to-scedule" onclick="window.location.href='scedule.html'">Scedule</button>
+      <button id="to-account" onclick="window.location.href='account-login.html'">Account</button>
+      <button id="to-contact" onclick="window.location.href='contact.html'">Contact</button>
+    </header>
+    <div id="content">
+    <div class="update">
+      <div id="side">
+        <!-- change label to current user information -->
+        <h2>Update Account Info</h2>
+        <!---  username -->
+        <label for="new-user-input">New username:</label>
+        <input type="text" id="new-user-input" />
+        <!--    phone number-->
+        <label for="new-phone-input">update phone number:</label>
+        <input type="text" name="New Username" id="new-phone-input" />
+        
+        
+        <!-- email-->
+        <label for="new-email-input"> update email:</label>
+        <input type="email" name="New email" id="new-email-input" />
+        <p id="emailvalid">Email not valid</p>
+
+        <!-- 
+            switch html/css gotten from :
+            https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_switch
+        -->
+
+        <div id="switches">
+        <p>Text Updates</p>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+
+        <p>Email Updates</p>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <button id="update-user-info">Update</button>
+      </div>
+    </div>
+
+
+    <div id="password">
+
+        <h2>Change Password</h2>
+
+        <label for="old-pass">Old password</label>
+        <input type="password" id="new-old-pass" />
+
+        <label for="new-pass">New password</label>
+        <input type="password" id="new-pass" />
+
+        <label for="confirm-pass">Retype new password</label>
+        <input type="" id="confirm-pass" />
+
+        <button id="update-pass">Update</button>
+
+    </div>
+    </div>
+  </body>
+</html>
