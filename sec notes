@@ -1,0 +1,205 @@
+
+                    ----- Basics -----
+Asset:
+somthing you would like to protect e.i passwords, info, phisical.
+
+Attack:
+attempt to compromise an asset
+ex. vunariblility, theft
+
+threat:
+potential occurence that would have an undesiered output
+
+vulnerability:
+makes a threat possible
+
+risk:
+messure of thret possibility and damage severity
+
+    threat details
+
+threat vector:
+Method used to cary out attack
+
+                ----risk mannagment----
+
+avoidance :
+Stop risky behaior
+
+acceptance :
+risk is inevitable
+
+mitigation:
+have a prosses to recover from risk i.e insurance
+
+deterrance:
+make thr risk harder to exploit
+
+transferance:
+assign the cost to another entity i.e inssurance
+
+map:
+Track all assets
+
+monitor:
+know what is happening with your assets.
+
+mitigate :
+use automation to block and remove threats
+
+manage:
+revisit plan and refine.
+
+        --- common risk types----
+
+* phishing detection
+* brand protection
+* fraud protextion
+* data monitoring
+* leaked credentials
+* malicous mobile apps
+* supply chain risks
+
+--- types of attacks----
+
+interuption :
+    an asset is destroyed or unusable
+
+interception:
+    man in the middle or evesdroping
+
+modification
+    Unauthorized tampering with asset
+
+fabrication:
+    counterfiting
+
+----
+
+
+---- methods of defense -----
+
+* block attacj
+* make attack harder/ deter
+* deflect
+*detect
+*tollerance
+*recover
+
+ CIA triad:
+
+ confidentioality :
+ disclosure of information
+
+ integrity:
+ modification of info
+
+ Avalibility
+    denial of access to services
+
+ - other principals
+
+ authentisity
+    varify sender
+    verify content
+
+accountability
+    trance back to responcible party i.e github blame
+
+obscurity
+    hide details
+    -------------------------------------------------
+AAA triad : Authentication , Authorisation(permissions), Accounting (tracking actions)
+
+
+Authentication
+    username-passwords
+    twofactor auth
+    biometrics
+
+---------
+
+hardware
+    workstation : pc
+    server :centeral place for data and all
+    backup: copy of essentioal data
+    patch : update to address a vunariblility
+    feature: targeting functionality over vulnerability
+    service pack : patch + feature
+
+access controll
+    account:granted access to a machine
+
+access control matrix
+
+    user | os | program | data | insurance | payroll|
+--------------------------------------------------------
+    bob | rx  | rx      | r    | rw        | rw    |
+---------------------------------------------------------
+    sam | rwx| rwx      |r      |rw         |rw     |
+--------------------------------------------------------
+    r = read
+    w = write
+    x = exicute
+--------------------------------------------------------
+
+
+roll based access
+
+    role : sudent
+    would not have admin cappiblilitys
+
+-----------------------
+ machine virtualisation :
+
+    pretty much just virtual box
+
+    emulators
+
+    streaming i.e stadia
+--------------------
+secure a workstation
+
+    apply os patches
+    apply application updates
+    restrict ability to insall apps
+    restrict ability to alter configs
+    install anti viris
+    enable local firewall
+    strong passwords
+
+secure server
+
+    enable logging
+    check logs regularly
+    create regular backups
+    shut down unneeded services / apps
+    disable default accounts
+------------------
+
+kernal
+    preforms lowest level functions
+    interupt handling
+    interprossess communications
+    syncronisation
+security kernal
+    enforcing security mechanisms
+
+    reffrence monitor :
+        part of security kernal
+        tampper proof *
+        unbypassable
+        analisable - testable
+-------
+
+bug bounty !!!
+
+how to scan pc
+    scanning for known vunariblilitys
+    port scanning
+    penetration testing
+    malware scanning
+
+
+
+
