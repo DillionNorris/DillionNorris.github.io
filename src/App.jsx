@@ -1,7 +1,7 @@
-import Home from "./components/home";
-import Resume from "./components/resume";
-import Projects from "./components/projects";
-import Footer from "./components/footer";
+import Home from "./components/Home";
+import Resume from "./components/Resume";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 import "./App.css";
 
 export default function App() {
